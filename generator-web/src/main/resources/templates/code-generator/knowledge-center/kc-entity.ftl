@@ -8,6 +8,8 @@
 @EqualsAndHashCode(callSuper = true)
 @Data
 public class ${classInfo.className} extends BaseEntity {
+    private static final long serialVersionUID = -1L;
+
 <#if classInfo.fieldList?exists && classInfo.fieldList?size gt 0>
 <#list classInfo.fieldList as fieldItem>
 <#if fieldItem.fieldName != 'id' && fieldItem.fieldName != 'createTime' && fieldItem.fieldName != 'updateTime' && fieldItem.fieldName != 'createUser' && fieldItem.fieldName != 'updateUser' && fieldItem.fieldName != 'deleteStatus'>
