@@ -291,5 +291,60 @@
         "description": "tk-controller"
       }
     ]
+  },
+  {
+    "group": "knowledge-center",
+    "templates": [
+      {
+        "id": "501",
+        "name": "kc-controller",
+        "description": "kc-controller"
+      },
+      {
+        "id": "502",
+        "name": "kc-entity",
+        "description": "kc-entity"
+      },
+      {
+        "id": "503",
+        "name": "kc-service",
+        "description": "kc-service"
+      },
+      {
+        "id": "504",
+        "name": "kc-service_impl",
+        "description": "kc-service_impl"
+      },
+      {
+        "id": "505",
+        "name": "kc-repository",
+        "description": "kc-repository"
+      },
+      {
+        "id": "506",
+        "name": "kc-mapper",
+        "description": "kc-mapper"
+      },
+      {
+        "id": "507",
+        "name": "kc-savevo",
+        "description": "kc-savevo"
+      },
+      {
+        "id": "508",
+        "name": "kc-queryvo",
+        "description": "kc-queryvo"
+      },
+      {
+        "id": "509",
+        "name": "kc-itemvo",
+        "description": "kc-itemvo"
+      },
+      {
+        "id": "510",
+        "name": "kc-infovo",
+        "description": "kc-infovo"
+      }
+    ]
   }
 ]
