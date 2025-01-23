@@ -17,6 +17,7 @@ public class ${classInfo.className} extends BaseEntity {
      * ${fieldItem.fieldComment}
      */
     private ${fieldItem.fieldClass} ${fieldItem.fieldName};
+
 </#if>
 </#list>
 </#if>
